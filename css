@@ -6,6 +6,8 @@
     font-family: sans-serif, Arial, Helvetica, sans-serif
 }
 
+
+
 body {
     background-color: #000000;
     height: 100vh;
@@ -225,32 +227,42 @@ section.especiliadades .flex {
 
 /* ESTILO DO SOBRE */
 section.sobre {
-    padding: 80px 4%;
+    padding: 10px 4%;
 }
 
 section.sobre .flex {
     align-items: center;
-    gap: 60px;
+    gap: 0px;
+}
+
+.img-sobre {
+margin-bottom: 200px;
+  margin-top: 200px
 }
 
 .sobre .txt-sobre {
     color: #ff7417;
+
 }
 
 .sobre .txt-sobre h2 {
-    font-size: 40px;
-    line-height: 40px;
-    margin-bottom: 30px;
+    font-size: 100px;
+    line-height: 80px;
+    margin-bottom: 25px;
 }
 
 .sobre .txt-sobre h2 span {
     color: #ff7417;
     display: block;
+  
+
+    
 }
 
 .sobre .txt-sobre p {
-    margin: 20px 0;
-    text-align: justify;
+  font-size: 18px;
+    margin: 90px 100;
+    text-align: left;
 }
 
 .btn-social button {
@@ -258,7 +270,7 @@ section.sobre .flex {
     height: 60px;
     border-radius: 50%;
     border: none;
-    background-color: #ff7417;
+    background-color: #ffffff;
     font-size: 22px;
     cursor: pointer;
     margin: 0 5px;
@@ -267,7 +279,7 @@ section.sobre .flex {
 
 /* ESTILO DO PORTFÓLIO */
 section.portfolio {
-    padding: 80px 4%;
+    padding: 10px 4%;
     box-shadow: 0 0 40px 10px #ff7417;
 }
 
@@ -278,14 +290,14 @@ section.portfolio .flex {
 }
 
 .img-port {
-    width: 360px;
-    height: 460px;
+    width: 10px;
+    height: 10;
     background-color: #ffffff;
     background-size: cover;
     background-position: 100% 0%;
     transition: 8s;
     cursor: pointer;
-    border-radius: 40px;
+    border-radius: 10px;
     position: relative;
 }
 
@@ -299,14 +311,14 @@ section.portfolio .flex {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #ff7417;
+    background-color: #ffffff;
     border-radius: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 24px;
     font-weight: 600;
-    color: #ff7417;
+    color: #ffffff;
     opacity: 0;
     transition: .5s;
 }
@@ -355,7 +367,7 @@ form .btn-enviar {
 form .btn-enviar input {
     width: 120px;
     background-color: #ff7417;
-    color: #ffffff;
+    color: #000000;
     font-weight: 700;
     cursor: pointer;
     transition: .2s;
@@ -377,7 +389,7 @@ footer .line-footer {
 }
 
 .borda {
-    border-top: 2px solid #ff7417;
+    border-top: 2px solid #ffffff;
 }
 
 footer .line-footer p i {
@@ -436,12 +448,12 @@ footer .line-footer p a {
 
     /* SOBRE */
     section.sobre {
-        padding: 80px 8%;
+        padding: 1px 8%;
     }
 
     .sobre .txt-sobre h2 {
-        font-size: 34px;
-        line-height: 35px;
+        font-size: 100px;
+        line-height: 50px;
         text-align: center;
     }
     
@@ -450,12 +462,14 @@ footer .line-footer p a {
     }
 
     .img-sobre img{
-        width: 100%;
+        width: 1px;
+        position: 20px
+        
     }
 
     /* PORTFÓLIO */
     section.portfolio {
-        padding: 80px 8%;
+        padding: 100px 8%;
     }
 
     .img-port {
