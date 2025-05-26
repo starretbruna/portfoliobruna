@@ -1,4 +1,4 @@
-/* ESTILO GERAL */
+
 * {
     margin: 0;
     padding: 0;
@@ -82,7 +82,6 @@ header nav.menu-desktop ul li {
     padding: 0 40px;
 }
 
-/* ESTILO DO MENU MOBILE */
 
 .btn-abrir-menu{
     display: none;
@@ -246,7 +245,7 @@ margin-bottom: 200px;
 }
 
 .sobre .txt-sobre h2 {
-    font-size: 100px;
+    font-size: 75px;
     line-height: 80px;
     margin-bottom: 25px;
 }
